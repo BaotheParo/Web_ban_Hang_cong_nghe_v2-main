@@ -1,0 +1,12 @@
+
+{
+    "header": {
+        "login"      : " login",
+        "register"   : "register",
+        "TBMT"       : "Computer equipment",
+        "brand"      :"Brand",
+        "post"       :"Post",
+        "ctv"        :"Collaborators",
+        "contact"    :"contact"
+   }
+}

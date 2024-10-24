@@ -1,0 +1,14 @@
+
+
+
+{
+    "header": {
+        "login"      : " Đăng Nhập",
+        "register"   : "Đăng ký",
+        "TBMT"       : "Thiết bị máy tính",
+        "brand"      : "Thương Hiệu",
+        "post"       : "Bài Viết",
+        "ctv"        : "Tuyển CTV",
+        "contact"    : "Liên Hiệu"
+   }
+}
