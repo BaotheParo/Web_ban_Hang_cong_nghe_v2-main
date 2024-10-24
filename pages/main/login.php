@@ -233,7 +233,7 @@ session_destroy();
 }
 
 .main-login{
-     background: linear-gradient(#141e30, #243b55);
+  background: linear-gradient(to bottom, #93a5cf , #e4efe9);
      min-height: 550px;
 }
 </style>

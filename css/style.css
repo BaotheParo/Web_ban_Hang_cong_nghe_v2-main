@@ -71,6 +71,7 @@ p{
  justify-content:space-between;
 }
 .header-center{
+  
     margin-top: 10px;
     height: 60px;
     align-items:center;
@@ -342,7 +343,7 @@ ol ,ul{
  }
  .banner-list{
    width: 97%;
-   background:#3b4a6b;
+   background: linear-gradient(to bottom, #112D60, #B6C0C5);
    height: 530px;
    border-radius: 0 0   0 250px;
  }
@@ -751,15 +752,14 @@ ol ,ul{
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin-top: 20px;
 }
-.main3,.main4{
+.main3, .main4 {
   width: 90%;
-  margin: 0 auto;
-  margin-top: 20px ;
+  margin: 20px auto; /* Thêm margin-top và margin-bottom để tạo khoảng cách */
   background-color: #fff;
-  padding: 5px;
+  padding: 15px; /* Tăng padding để nội dung không bị sát viền */
   border-radius: 10px;
-  color:#000 !important;
- 
+  color: #000 !important;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Thêm bóng nhẹ để tạo chiều sâu */
 }
 
 .main2-title{
