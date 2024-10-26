@@ -1029,15 +1029,15 @@ overflow: hidden;
   
 }
 .main4-btn{
-  margin-top: 30px !important;
+  margin-top: 20px !important;
   text-align: center
 }
 .main4-btn a{
-  padding:20px ;
+  padding:10px ;
   background-color: red;
   color:#fff !important;
   border-radius: 8px;
-
+  
 }
 .main4-btn a:hover{
   color:#fff !important;

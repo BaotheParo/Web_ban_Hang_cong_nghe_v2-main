@@ -19,7 +19,7 @@
       else
       $_SESSION['dangnhap']=$username;
      
-        echo'<script>window.location.assign("/Web_ban_Hang_cong_nghe_v2-main/admincp/index.php")</script>';
+        echo'<script>window.location.assign("/EC/admincp/index.php")</script>';
 		}else{
       session_unset();
 session_destroy();

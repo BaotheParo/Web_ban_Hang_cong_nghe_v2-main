@@ -42,24 +42,24 @@
               <h1>Bio Graph</h1>
               <div class="row">
                   <div class="bio-row">
-                      <p><span>Tên đầy đủ </span>: <?php echo $row_user_data['fullname'] ?></p>
+                      <p><span><strong>Tên đầy đủ</strong></span>: <?php echo $row_user_data['fullname'] ?></p>
                   </div>
                 <div class="bio-row">
-                      <p><span>Mobile </span>: <?php echo $row_user_data['sdt'] ?></p>
+                      <p><span> <strong>Mobile</strong> </span>: <?php echo $row_user_data['sdt'] ?></p>
                   </div>
 
                   <div class="bio-row">
-                      <p><span>Địa chỉ cụ thể</span>: <?php echo $row_user_data['diachicuthe'] ?>,(nơi nhận hàng)</p>
+                      <p><span> <strong>Địa chỉ cụ thể</strong></span>: <?php echo $row_user_data['diachicuthe'] ?>,(nơi nhận hàng)</p>
                   </div>
                   
                   <div class="bio-row">
-                      <p><span>Email </span>: <?php echo $row_user_data['email'] ?></p>
+                      <p><span> <strong>Email</strong> </span>: <?php echo $row_user_data['email'] ?></p>
                   </div>
                   <div class="bio-row">
-                      <p><span>Đơn Hàng đã mua  </span>: <?php echo $row_user_data['donhangdamua'] ?></p>
+                      <p><span> <strong>Đơn Hàng đã mua  </strong></span>: <?php echo $row_user_data['donhangdamua'] ?></p>
                   </div>
                   <div class="bio-row">
-                      <p><span>Tổng tiền đã mua   </span>: <?php echo number_format(($row_user_data['tongtien']),0,',','.' ).' ₫'  ?></p>
+                      <p><span> <strong>Tổng tiền đã mua</strong></span>: <?php echo number_format(($row_user_data['tongtien']),0,',','.' ).' ₫'  ?></p>
                   </div>
 
                   
@@ -72,8 +72,37 @@
                   <div class="panel">
                       <div class="panel-body">
                           <div class="bio-chart">
-                              <div style="display:inline;width:100px;height:100px;"><canvas width="100" height="100px"></canvas><input class="knob" data-width="100" data-height="100" data-displayprevious="true" data-thickness=".2" value="<?php echo $row_user_data['donhangdamua'] ?>" data-fgcolor="#e06b7d" data-bgcolor="#e8e8e8" style="width: 54px; height: 33px; position: absolute; vertical-align: middle; margin-top: 33px; margin-left: -77px; border: 0px; font-weight: bold; font-style: normal; font-variant: normal; font-stretch: normal; font-size: 20px; line-height: normal; font-family: Arial; text-align: center; color: rgb(224, 107, 125); padding: 0px; -webkit-appearance: none; background: none;"></div>
-                          </div>
+    <div style="display:inline;width:100px;height:100px;">
+        <canvas width="100" height="100"></canvas>
+        <input 
+            class="knob" 
+            data-width="100" 
+            data-height="100" 
+            data-displayprevious="true" 
+            data-thickness=".2" 
+            value="<?php echo $row_user_data['donhangdamua'] ?>" 
+            data-fgcolor="#e06b7d" 
+            data-bgcolor="#e8e8e8" 
+            style="
+                width: 54px; 
+                height: 33px; 
+                position: absolute; 
+                vertical-align: middle; 
+                margin-top: 33px; 
+                margin-left: -77px; 
+                border: none; 
+                font-weight: bold; 
+                font-size: 20px; 
+                font-family: Arial; 
+                text-align: center; 
+                color: rgb(224, 107, 125); 
+                background: none; 
+                pointer-events: none; /* Ngăn không cho người dùng tương tác */
+                -webkit-appearance: none; 
+            " 
+            readonly>
+    </div>
+</div>
                           <div class="bio-desk">
                               <h4 class="red">Đơn Hàng đã mua thành công</h4>
                              
@@ -86,7 +115,7 @@
                   <div class="panel">
                       <div class="panel-body">
                           <div class="bio-chart">
-                              <div style="display:inline;width:100px;height:100px;"><canvas width="100" height="100px"></canvas><input class="knob" data-width="100" data-height="100" data-displayprevious="true" data-thickness=".2" value="<?php echo number_format(($row_user_data['tongtien']),0,',','.' ).' ₫'  ?>" data-fgcolor="#96be4b" data-bgcolor="#e8e8e8" style="width: 130px; height: 33px; position: absolute; vertical-align: middle; margin-top: 33px; margin-left: -77px; border: 0px; font-weight: bold; font-style: normal; font-variant: normal; font-stretch: normal; font-size: 20px; line-height: normal; font-family: Arial; text-align: center; color: rgb(150, 190, 75); padding: 0px; -webkit-appearance: none; background: none;"></div>
+                              <div style="display:inline;width:100px;height:100px;"><canvas width="100" height="100px"></canvas><input class="knob" data-width="100" data-height="100" data-displayprevious="true" data-thickness=".2" value="<?php echo number_format(($row_user_data['tongtien']),0,',','.' ).' ₫'  ?>" data-fgcolor="#96be4b" data-bgcolor="#e8e8e8" style="width: 130px; height: 33px; position: absolute; vertical-align: middle; margin-top: 33px;pointer-events: none; margin-left: -77px; border: 0px; font-weight: bold; font-style: normal; font-variant: normal; font-stretch: normal; font-size: 20px; line-height: normal; font-family: Arial; text-align: center; color: rgb(150, 190, 75); padding: 0px; -webkit-appearance: none; background: none;"></div>
                           </div>
                           <div class="bio-desk">
                               <h4 class="green">Tổng số tiền đã thanh toán</h4>
@@ -292,6 +321,8 @@
 .bio-desk h4.purple {
     color: #caa3da;
 }
+
+
 
 .file-pos {
     margin: 6px 0 10px 0;

@@ -165,7 +165,7 @@ $i++;
                           <div class="sp_tag sp_tag2">Bảo hành 12 tháng </div>
                       </div>
                  </div>
-                 <input type="submit" class="themgiohang" value="ĐẶT MUA NGAY" name="themgiohang">
+                 <input type="submit" class="themgiohang" value="Thêm vào giỏ hàng" name="themgiohang">
                  <p class="or">--------------- Hoặc ---------------</p>
                  <input type="submit" class="tuvan" name="tuvan" value="Nhận tư vấn qua gmail hoặc phone">
                  <p class="or"><i>*Note: Với những sản phẩm hết hàng có sẵn thì có thể phải chờ một thời gian để shop nhập hàng . Vui lòng lưu ý khi đặt hàng </i></p>

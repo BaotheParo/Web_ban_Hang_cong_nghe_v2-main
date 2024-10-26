@@ -1,5 +1,5 @@
 <footer>
-<div class="row">
+<div class="row1">
             <div class="col">
             <div class="logo">
                             <a href="index.php">
@@ -52,7 +52,7 @@
     font-family: "Poppins", sans-serif;
     width: 100%;
     position: absolute;
-    background: linear-gradient(to bottom, #8baaaa , #ae8b9c);
+    background: linear-gradient(to bottom, #112D60, #B6C0C5);
     color: #fff;
     padding-top:10px ;
     font-size: 13px;
@@ -61,7 +61,7 @@
     
   }
 
-  .row{
+  .row1{
     width: 85%;
     margin: auto;
     display: flex;    
