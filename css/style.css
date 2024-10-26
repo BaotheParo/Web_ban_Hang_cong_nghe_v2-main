@@ -78,7 +78,7 @@ p{
 }
 .logo{
     color: #000;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
 }
 .logo span{
@@ -1399,8 +1399,7 @@ td,th{
 .content_sp{
   margin-top: 10px !important;
   height: auto;
-  max-height: 400px;
-  overflow: hidden;
+
 }
 .content_sp img{
   margin-top: 10px;

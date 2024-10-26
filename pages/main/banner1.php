@@ -10,10 +10,10 @@
           
             
                 <div class="tab-link">
-                <div class="tab-link_i"><a target="_blank" href="https://www.facebook.com/quan.nguyentrong.35325"><i class="fab fa-facebook-f"></i></a> </div> 
-                <div class="tab-link_i"><a target="_blank" href="https://www.youtube.com/channel/UCmCJIuawU-mSDhO6IAA08eA"><i class="fab fa-youtube"></i></a> </div> 
-                 <div class="tab-link_i"><a target="_blank" href="https://join.skype.com/invite/y7fWogfcQCpP"><i class="fab fa-skype"></i></a> </div>
-                <div class="tab-link_i"><a target="_blank" href="https://github.com/quandarius-pfp"> <i class="fab fa-github"></i></a>  </div> 
+                <div class="tab-link_i"><a target="_blank" href="https://www.facebook.com/ptvuong/"><i class="fab fa-facebook-f"></i></a> </div> 
+                <div class="tab-link_i"><a target="_blank" href="https://youtu.be/8Ebqe2Dbzls?si=DZkpXV74AZbfZlW_"><i class="fab fa-youtube"></i></a> </div> 
+                 <div class="tab-link_i"><a target="_blank" href="https://youtu.be/8Ebqe2Dbzls?si=DZkpXV74AZbfZlW_"><i class="fab fa-skype"></i></a> </div>
+                <div class="tab-link_i"><a target="_blank" href=""> <i class="fab fa-github"></i></a>  </div> 
                 </div>
                 <div class="banner-list ">
                 <div class="owl-carousel banner-list-content ">
