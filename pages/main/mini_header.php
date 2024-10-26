@@ -2,7 +2,7 @@
                 <div class="header-center-content">
                     <div class="header-center-left">
                         <div class="logo">
-                            <a href="index.php">
+                            <a href="index.php?quanly=home">
                             <span>D</span>ev <span>N</span>guyen <span>S</span>tore
                         </a>
                         </div>

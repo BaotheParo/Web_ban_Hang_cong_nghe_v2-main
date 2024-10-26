@@ -118,7 +118,7 @@
 </head>
 
 <body>
-    <div class="main margin_top">
+<div class="main margin_top">
     <?php
         if (isset($_GET['quanly'])) {
             $tam = $_GET['quanly'];

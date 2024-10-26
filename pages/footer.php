@@ -2,29 +2,29 @@
     <div class="row1">
         <div class="col">
             <div class="logo">
-                <a href="index.php">
+                <a href="index.php?quanly=home">
                     <span>D</span>ev <span>N</span>guyen <span>S</span>tore
                 </a>
             </div>
             <br>
-            <p>Nơi bạn tìm thấy sự hòa quyện giữa phong cách và sự thoải mái qua những đôi giày Sneaker đẳng cấp.</p>
+            <p>Ở đâu bán rẻ chúng tôi bán rẻ hơn kkk</p>
         </div>
         <div class="col">
             <h3>Office <div class="underline"><span></span></div></h3>
             <p>958 LacLongQuan Street</p>
             <p>TanBinh District</p>
             <p>HoChiMinh City</p>
-            <p class="email-id">acoyeuekhong@yahoo.com</p>
+            <p class="email-id">imnotgay@yahoo.com</p>
             <h4>+84 22 2222 2222</h4>
         </div>
         <div class="col smaller-col">
             <h3>Links <div class="underline"><span></span></div></h3>
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Service</a></li>
-                <li><a href="">About us</a></li>
-                <li><a href="">Contact</a></li>
-                <li><a href="">Policy</a></li>
+                <li><a href=""><strong>Home</strong></a></li>
+                <li><a href=""><strong>Service</strong></a></li>
+                <li><a href=""><strong>About us</strong></a></li>
+                <li><a href=""><strong>Contact</strong></a></li>
+                <li><a href=""><strong>Policy</strong></a></li>
             </ul>
         </div>
         <div class="col">
@@ -44,17 +44,17 @@
                     <ul class="list-link">
                         <li class="link border icon-cps rounded">
                             <a href="">
-                                <img src="https://cdn2.cellphones.com.vn/x35,webp/media/wysiwyg/apple-pay-og.png" alt="Apple Pay" loading="lazy">
+                                <img src="https://i.pinimg.com/736x/3e/35/15/3e3515428abe4843bb69cf936e404090.jpg" alt="COD" loading="lazy">
                             </a>
                         </li>
                         <li class="link border icon-cps rounded">
                             <a href="">
-                                <img src="https://cdn2.cellphones.com.vn/x35,webp/media/logo/payment/vnpay-logo.png" alt="Vnpay" loading="lazy">
+                                <img src="https://vnpay.vn/s1/statics.vnpay.vn/2023/6/0oxhzjmxbksr1686814746087.png" alt="Vnpay" loading="lazy">
                             </a>
                         </li>
                         <li class="link border icon-cps rounded">
                             <a href="">
-                                <img src="https://cdn2.cellphones.com.vn/x/media/wysiwyg/momo_1.png" alt="MoMo" loading="lazy">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCp0JctwLH5Hgagb0TY-xvAuWK2NCGU4fZgQ&s" alt="MoMo" loading="lazy">
                             </a>
                         </li>
                     </ul>
@@ -229,7 +229,7 @@ hr {
 }
 
 .payment-methods img {
-    max-width: 80%;
+    max-width: 70%;
     height: auto;
 }
 
